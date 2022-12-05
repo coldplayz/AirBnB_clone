@@ -546,7 +546,7 @@ class HBNBCommand(cmd.Cmd):
 
 
 def dct_item_str(dct_item):
-    ''' Returns a 2-tuple composed of the key and value of a dictionary item.
+    ''' Returns a 2-list composed of the key and value of a dictionary item.
 
     Args:
         dct_item (str): a string in the format `key: value`

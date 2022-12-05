@@ -58,13 +58,17 @@ section.filters div h4 {
 
 section.filters div ul {/* will need to be more specific if more divs/uls */
 	display: none;
+	list-style-type: none;
+}
+
+section.filters div ul li {
 	background-color: #FAFAFA;
 	width: 25%;
 	height: 100%;
 	border: 1px solid #DDDDDD;
 }
 
-section.filters div ul:hover {
+section.filters div:hover ul {
 	display: block;
 }
 
