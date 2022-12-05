@@ -65,7 +65,7 @@ section.filters div ul {/* will need to be more specific if more divs/uls */
 }
 
 section.filters div ul:hover {
-	display: initial;
+	display: block;
 }
 
 section.filters div.locations ul h2 {
