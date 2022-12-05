@@ -39,7 +39,6 @@ section.filters div.locations, section.filters div.amenities {
 	margin: 0; /* testing */
 	/* background: yellow;  remove */
 	/* line-height: 70px; */
-	position: relative;
 }
 
 section.filters div.locations {
@@ -55,33 +54,4 @@ section.filters div h4 {
 	font-weight: 400;
 	font-size: 14px;
 	margin: 0; /* testing */
-}
-
-section.filters div ul.popover {/* will need to be more specific if more divs/uls */
-	display: none;
-	list-style-type: none;
-	background-color: #FAFAFA;
-	width: 100%;
-	border: 1px solid #DDDDDD;
-	margin: 0;
-}
-
-section.filters div ul.popover ul {
-	list-style-type: none;
-}
-
-section.filters div:hover ul.popover {
-	display: block;
-	position: absolute;
-	margin-left: -40px;
-	margin-top: 15px;
-}
-
-section.filters div.amenities:hover ul.popover {
-	margin-left: -45px;
-}
-
-section.filters div.locations ul h2 {
-	font-size: 16px;
-	/* position: relative; */
 }
