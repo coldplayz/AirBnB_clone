@@ -75,7 +75,6 @@ section.filters div:hover ul.popover {
 	position: absolute;
 	margin-left: -40px;
 	margin-top: 15px;
-	z-index: 100;
 }
 
 section.filters div.amenities:hover ul.popover {
